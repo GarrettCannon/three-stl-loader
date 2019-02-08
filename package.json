@@ -8,6 +8,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/GarrettCannon/ts-three-stl-loader.git"
+  },
   "author": "Garrett Cannon <gcannon@vectorform.com>",
   "keywords": [
     "three",
