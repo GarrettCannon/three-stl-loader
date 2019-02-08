@@ -1,6 +1,6 @@
 {
   "name": "@vectorform/ts-three-stl-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@enspiral-cherubi's three.js stl-loader rewritten in TypeScript",
   "scripts": {
     "build": "pack build"
