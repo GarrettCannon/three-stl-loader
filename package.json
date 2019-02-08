@@ -1,25 +1,24 @@
 {
-  "name": "three-stl-loader",
-  "version": "1.0.6",
-  "description": "@aleeper's three.js stl-loader as a node module",
-  "main": "index.js",
+  "name": "ts-three-stl-loader",
+  "version": "1.0.0",
+  "description": "enspiral-cherubi's @aleeper's three.js stl-loader as a node module, rewritten in TypeScript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enspiral-cherubi/three-stl-loader.git"
+    "build": "tsc"
   },
   "keywords": [
     "three",
     "threejs",
     "stl",
-    "loader"
+    "loader",
+    "typescript",
+    "vectorform"
   ],
-  "author": "data-doge <eugene@enspiral.com> (http://fuckafucka.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enspiral-cherubi/three-stl-loader/issues"
+  "devDependencies": {
+    "@types/three": "^0.93.19",
+    "typescript": "^3.3.3"
   },
-  "homepage": "https://github.com/enspiral-cherubi/three-stl-loader#readme"
+  "dependencies": {
+    "three": "^0.101.1"
+  }
 }
