@@ -34,6 +34,8 @@
     "three": "^0.101.1"
   },
   "@pika/pack": {
+  	"name": "@vectorform/ts-three-stl-loader",
+  	"version": "1.0.0",
     "pipeline": [
       [
         "@pika/plugin-standard-pkg"
