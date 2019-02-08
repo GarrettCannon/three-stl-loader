@@ -6,4 +6,3 @@ export default class STLLoader {
     ensureString(buf: any): string;
     ensureBinary(buf: any): any;
 }
-//# sourceMappingURL=index.d.ts.map

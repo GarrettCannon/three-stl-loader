@@ -1,10 +1,11 @@
 {
-  "name": "ts-three-stl-loader",
+  "name": "@vectorform/ts-three-stl-loader",
   "version": "1.0.0",
-  "description": "enspiral-cherubi's @aleeper's three.js stl-loader as a node module, rewritten in TypeScript",
+  "description": "@enspiral-cherubi's three.js stl-loader rewritten in TypeScript",
   "scripts": {
-    "build": "tsc"
+    "build": "pack build"
   },
+  "author": "Garrett Cannon <gcannon@vectorform.com>",
   "keywords": [
     "three",
     "threejs",
@@ -15,10 +16,27 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@pika/pack": "^0.3.1",
+    "@pika/plugin-build-types": "^0.3.9",
+    "@pika/plugin-build-web": "^0.3.9",
+    "@pika/plugin-standard-pkg": "^0.3.9",
     "@types/three": "^0.93.19",
     "typescript": "^3.3.3"
   },
   "dependencies": {
     "three": "^0.101.1"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
   }
 }
