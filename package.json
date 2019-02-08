@@ -23,10 +23,26 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@pika/plugin-build-types": "^0.3.9",
+    "@pika/plugin-build-web": "^0.3.9",
+    "@pika/plugin-standard-pkg": "^0.3.9",
     "@types/three": "^0.93.19",
     "typescript": "^3.3.3"
   },
   "dependencies": {
     "three": "^0.101.1"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
   }
 }
