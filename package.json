@@ -5,6 +5,9 @@
   "scripts": {
     "build": "pack build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Garrett Cannon <gcannon@vectorform.com>",
   "keywords": [
     "three",
