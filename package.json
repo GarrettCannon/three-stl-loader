@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "@enspiral-cherubi's three.js stl-loader rewritten in TypeScript",
   "scripts": {
-    "build": "pack build"
+    "build": "tsc"
   },
   "publishConfig": {
     "access": "public"
@@ -28,20 +28,5 @@
   },
   "dependencies": {
     "three": "^0.101.1"
-  },
-  "@pika/pack": {
-    "name": "@vectorform/ts-three-stl-loader",
-    "version": "1.0.0",
-    "pipeline": [
-      [
-        "@pika/plugin-standard-pkg"
-      ],
-      [
-        "@pika/plugin-build-web"
-      ],
-      [
-        "@pika/plugin-build-types"
-      ]
-    ]
   }
 }
